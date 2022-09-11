@@ -1,0 +1,23 @@
+{
+  "name": "uniswap-clone",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "accounts": "npx hardhat accounts",
+    "balances": "npx hardhat balances",
+    "deploy": "npx hardhat run scripts/deploy.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.1.1",
+    "ethers": "^5.7.0",
+    "hardhat": "^2.11.1",
+    "ts-node": "^10.9.1"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.7.3",
+    "@uniswap/v3-periphery": "^1.4.1"
+  }
+}
